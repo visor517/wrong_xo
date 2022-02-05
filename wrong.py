@@ -40,10 +40,23 @@ class Game:
     # проверка на поражение после хода
     def checkLose(self, move, char):
         x, y = move
+        # для проверки без хода
+        temp, self.board[x][y] = self.board[x][y], char
         line = ''.join(self.board[x])
         col = ''.join([self.board[i][y] for i in range(10)])
-        #diag = ''.join()
-        return line.find(char*5) < 0 and col.find(char*5) < 0
+        if x > y:
+            diag1 = ''.join([self.board[x - y + i][i] for i in range(10 - x + y)])
+        else:
+            diag1 = ''.join([self.board[i][y - x + i] for i in range(10 - y + x)])
+        if x + y < 9:
+            diag2 = ''.join([self.board[x + y - i][i] for i in range(1 + x + y)])
+        else:
+            diag2 = ''.join([self.board[i][x + y - i] for i in range(9, x + y - 10, -1)])
+        self.board[x][y] = temp
+        print(diag1)
+        print(diag2)
+
+        return line.find(char*5) < 0 and col.find(char*5) < 0 and diag1.find(char*5) < 0 and diag2.find(char*5) < 0
 
 
 cur_game = Game('X', 'O')
