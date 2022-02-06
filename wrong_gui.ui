@@ -127,7 +127,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup0</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_0_1">
@@ -154,7 +154,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup0</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_0_2">
@@ -181,7 +181,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup0</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_0_3">
@@ -208,7 +208,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup0</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_0_4">
@@ -235,7 +235,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup0</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_0_5">
@@ -262,7 +262,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup0</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_0_6">
@@ -289,7 +289,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup0</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_0_7">
@@ -316,7 +316,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup0</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_0_8">
@@ -343,7 +343,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup0</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_0_9">
@@ -370,7 +370,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup0</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_1_6">
@@ -397,7 +397,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup1</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_1_5">
@@ -424,7 +424,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup1</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_1_2">
@@ -451,7 +451,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup1</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_1_3">
@@ -478,7 +478,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup1</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_1_9">
@@ -505,7 +505,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup1</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_1_7">
@@ -532,7 +532,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup1</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_1_4">
@@ -559,7 +559,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup1</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_1_8">
@@ -586,7 +586,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup1</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_1_1">
@@ -613,7 +613,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup1</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_1_0">
@@ -640,7 +640,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup1</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_2_9">
@@ -667,7 +667,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup2</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_2_5">
@@ -694,7 +694,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup2</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_2_0">
@@ -721,7 +721,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup2</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_2_4">
@@ -748,7 +748,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup2</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_2_2">
@@ -775,7 +775,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup2</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_2_1">
@@ -802,7 +802,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup2</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_2_7">
@@ -829,7 +829,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup2</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_2_6">
@@ -856,7 +856,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup2</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_2_8">
@@ -883,7 +883,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup2</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_2_3">
@@ -910,7 +910,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup2</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_3_9">
@@ -937,7 +937,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup3</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_3_5">
@@ -964,7 +964,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup3</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_3_0">
@@ -991,7 +991,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup3</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_3_4">
@@ -1018,7 +1018,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup3</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_3_2">
@@ -1045,7 +1045,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup3</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_3_1">
@@ -1072,7 +1072,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup3</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_3_7">
@@ -1099,7 +1099,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup3</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_3_6">
@@ -1126,7 +1126,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup3</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_3_8">
@@ -1153,7 +1153,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup3</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_3_3">
@@ -1180,7 +1180,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup3</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_4_9">
@@ -1207,7 +1207,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup4</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_4_5">
@@ -1234,7 +1234,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup4</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_4_0">
@@ -1261,7 +1261,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup4</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_4_4">
@@ -1288,7 +1288,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup4</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_4_2">
@@ -1315,7 +1315,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup4</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_4_1">
@@ -1342,7 +1342,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup4</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_4_7">
@@ -1369,7 +1369,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup4</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_4_6">
@@ -1396,7 +1396,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup4</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_4_8">
@@ -1423,7 +1423,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup4</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_4_3">
@@ -1450,7 +1450,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup4</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_5_9">
@@ -1477,7 +1477,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup5</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_5_5">
@@ -1504,7 +1504,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup5</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_5_0">
@@ -1531,7 +1531,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup5</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_5_4">
@@ -1558,7 +1558,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup5</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_5_2">
@@ -1585,7 +1585,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup5</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_5_1">
@@ -1612,7 +1612,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup5</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_5_7">
@@ -1639,7 +1639,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup5</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_5_6">
@@ -1666,7 +1666,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup5</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_5_8">
@@ -1693,7 +1693,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup5</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_5_3">
@@ -1720,7 +1720,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup5</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_6_9">
@@ -1747,7 +1747,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup6</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_6_5">
@@ -1774,7 +1774,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup6</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_6_0">
@@ -1801,7 +1801,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup6</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_6_4">
@@ -1828,7 +1828,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup6</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_6_2">
@@ -1855,7 +1855,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup6</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_6_1">
@@ -1882,7 +1882,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup6</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_6_7">
@@ -1909,7 +1909,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup6</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_6_6">
@@ -1936,7 +1936,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup6</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_6_8">
@@ -1963,7 +1963,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup6</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_6_3">
@@ -1990,7 +1990,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup6</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_7_9">
@@ -2017,7 +2017,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup7</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_7_5">
@@ -2044,7 +2044,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup7</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_7_0">
@@ -2071,7 +2071,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup7</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_7_4">
@@ -2098,7 +2098,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup7</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_7_2">
@@ -2125,7 +2125,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup7</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_7_1">
@@ -2152,7 +2152,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup7</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_7_7">
@@ -2179,7 +2179,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup7</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_7_6">
@@ -2206,7 +2206,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup7</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_7_8">
@@ -2233,7 +2233,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup7</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_7_3">
@@ -2260,7 +2260,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup7</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_8_9">
@@ -2287,7 +2287,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup8</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_8_5">
@@ -2314,7 +2314,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup8</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_8_0">
@@ -2341,7 +2341,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup8</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_8_4">
@@ -2368,7 +2368,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup8</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_8_2">
@@ -2395,7 +2395,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup8</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_8_1">
@@ -2422,7 +2422,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup8</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_8_7">
@@ -2449,7 +2449,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup8</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_8_6">
@@ -2476,7 +2476,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup8</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_8_8">
@@ -2503,7 +2503,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup8</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_8_3">
@@ -2530,7 +2530,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup8</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_9_9">
@@ -2557,7 +2557,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup9</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_9_5">
@@ -2584,7 +2584,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup9</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_9_0">
@@ -2611,7 +2611,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup9</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_9_4">
@@ -2638,7 +2638,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup9</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_9_2">
@@ -2665,7 +2665,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup9</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_9_1">
@@ -2692,7 +2692,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup9</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_9_7">
@@ -2719,7 +2719,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup9</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_9_6">
@@ -2746,7 +2746,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup9</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_9_8">
@@ -2773,7 +2773,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup9</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
    <widget class="QPushButton" name="field_9_3">
@@ -2800,7 +2800,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <attribute name="buttonGroup">
-     <string notr="true">buttonGroup9</string>
+     <string notr="true">buttonGroup</string>
     </attribute>
    </widget>
   </widget>
@@ -2808,16 +2808,7 @@ color: rgb(255, 255, 255);</string>
  <resources/>
  <connections/>
  <buttongroups>
-  <buttongroup name="buttonGroup7"/>
-  <buttongroup name="buttonGroup6"/>
-  <buttongroup name="buttonGroup1"/>
-  <buttongroup name="buttonGroup9"/>
   <buttongroup name="radioGroup"/>
-  <buttongroup name="buttonGroup2"/>
-  <buttongroup name="buttonGroup4"/>
-  <buttongroup name="buttonGroup8"/>
-  <buttongroup name="buttonGroup3"/>
-  <buttongroup name="buttonGroup5"/>
-  <buttongroup name="buttonGroup0"/>
+  <buttongroup name="buttonGroup"/>
  </buttongroups>
 </ui>
