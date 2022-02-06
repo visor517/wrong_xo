@@ -10,6 +10,24 @@
     <height>380</height>
    </rect>
   </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>320</width>
+    <height>380</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>320</width>
+    <height>380</height>
+   </size>
+  </property>
   <property name="font">
    <font>
     <pointsize>8</pointsize>
@@ -2808,7 +2826,7 @@ color: rgb(255, 255, 255);</string>
  <resources/>
  <connections/>
  <buttongroups>
-  <buttongroup name="radioGroup"/>
   <buttongroup name="buttonGroup"/>
+  <buttongroup name="radioGroup"/>
  </buttongroups>
 </ui>
