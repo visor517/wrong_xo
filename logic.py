@@ -22,7 +22,7 @@ class Game:
         x, y = move
         self.board[x][y] = char
         self.available_moves.remove(move)
-        self.ai_moves.remove(move)
+        self.ai_moves.discard(move)
 
     # генератор хода ai
     def generateMove(self):
@@ -35,7 +35,7 @@ class Game:
             else:
                 self.ai_moves.remove(move)
         
-        return choice(self.available_moves)
+        return choice(list(self.available_moves))
 
     # проверка на поражение после хода
     def checkLose(self, move, char):

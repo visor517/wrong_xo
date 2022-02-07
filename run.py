@@ -13,9 +13,20 @@ def main():
     ui.setupUi(MainWindow)
     MainWindow.show()
 
-    cur_game = Game('X', 'Y')
+    def startGame():
+        global cur_game
+        cur_game = Game('X', 'O')
 
+        # обновляем поле
+        for item in ui.buttonGroup.buttons():
+            item.setText('')
+            item.setEnabled(True)
+
+    # конец игры, блокировка поля
     def gameOver(message):
+        for item in ui.buttonGroup.buttons():
+            item.setEnabled(False)
+        # сообщение
         msg = QMessageBox()
         msg.setText(message)
         msg.setWindowTitle("THE END")
@@ -30,8 +41,6 @@ def main():
         cur_game.makeMove(move, cur_game.player_char)
         if not cur_game.checkLose(move, cur_game.player_char):
             gameOver("Game over!")
-            for item in ui.buttonGroup.buttons():
-                item.setEnabled(False)
             return
 
         aiMove()
@@ -39,15 +48,19 @@ def main():
     # ход ии
     def aiMove():
         move = cur_game.generateMove()
-        x, y = move
-        field = MainWindow.findChild(QPushButton, f'field_{x}_{y}')
+        cur_game.makeMove(move, cur_game.ai_char)
+        field = MainWindow.findChild(QPushButton, f'field_{move[0]}_{move[1]}')
         field.setText(cur_game.ai_char)
         field.setEnabled(False)
+        if not cur_game.checkLose(move, cur_game.ai_char):
+            gameOver("Victory!")
 
 
     # навешиваем метод на поля
     for item in ui.buttonGroup.buttons():
         item.clicked.connect(makeMove)
+
+    ui.startButton.clicked.connect(startGame)
         
 
     sys.exit(app.exec_())
