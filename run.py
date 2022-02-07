@@ -15,12 +15,17 @@ def main():
 
     def startGame():
         global cur_game
-        cur_game = Game('X', 'O')
 
         # обновляем поле
         for item in ui.buttonGroup.buttons():
             item.setText('')
             item.setEnabled(True)
+
+        if ui.radioButtonX.isChecked():
+            cur_game = Game('X', 'O')
+        else:
+            cur_game = Game('O', 'X')
+            aiMove()
 
     # конец игры, блокировка поля
     def gameOver(message):
@@ -43,7 +48,10 @@ def main():
             gameOver("Game over!")
             return
 
-        aiMove()
+        if len(cur_game.available_moves) == 0:
+            gameOver("Dead heat!")
+        else:
+            aiMove()
     
     # ход ии
     def aiMove():
@@ -54,6 +62,9 @@ def main():
         field.setEnabled(False)
         if not cur_game.checkLose(move, cur_game.ai_char):
             gameOver("Victory!")
+
+        if len(cur_game.available_moves) == 0:
+            gameOver("Dead heat!")
 
 
     # навешиваем метод на поля
