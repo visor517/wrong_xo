@@ -13,7 +13,7 @@ def main():
     ui.setupUi(MainWindow)
     MainWindow.show()
 
-    def startGame():
+    def start_game():
         global cur_game
 
         # обновляем поле
@@ -25,10 +25,10 @@ def main():
             cur_game = Game('X', 'O')
         else:
             cur_game = Game('O', 'X')
-            aiMove()
+            ai_move()
 
     # конец игры, блокировка поля
-    def gameOver(message):
+    def over_game(message):
         for item in ui.buttonGroup.buttons():
             item.setEnabled(False)
         # сообщение
@@ -38,40 +38,40 @@ def main():
         msg.exec_()
 
     # ход игрока
-    def makeMove():
+    def make_move():
         field = MainWindow.sender()
         field.setText(cur_game.player_char)
         field.setEnabled(False)
         move = tuple([int(i) for i in field.objectName().split('_')[1:]])
-        cur_game.makeMove(move, cur_game.player_char)
-        if not cur_game.checkLose(move, cur_game.player_char):
-            gameOver("Game over!")
+        cur_game.make_move(move, cur_game.player_char)
+        if not cur_game.check_lose(move, cur_game.player_char):
+            over_game("Game over!")
             return
 
         if len(cur_game.available_moves) == 0:
-            gameOver("Dead heat!")
+            over_game("Dead heat!")
         else:
-            aiMove()
+            ai_move()
     
     # ход ии
-    def aiMove():
-        move = cur_game.generateMove()
-        cur_game.makeMove(move, cur_game.ai_char)
+    def ai_move():
+        move = cur_game.generate_move()
+        cur_game.make_move(move, cur_game.ai_char)
         field = MainWindow.findChild(QPushButton, f'field_{move[0]}_{move[1]}')
         field.setText(cur_game.ai_char)
         field.setEnabled(False)
-        if not cur_game.checkLose(move, cur_game.ai_char):
-            gameOver("Victory!")
+        if not cur_game.check_lose(move, cur_game.ai_char):
+            over_game("Victory!")
 
         if len(cur_game.available_moves) == 0:
-            gameOver("Dead heat!")
+            over_game("Dead heat!")
 
 
     # навешиваем метод на поля
     for item in ui.buttonGroup.buttons():
-        item.clicked.connect(makeMove)
+        item.clicked.connect(make_move)
 
-    ui.startButton.clicked.connect(startGame)
+    ui.startButton.clicked.connect(start_game)
         
 
     sys.exit(app.exec_())

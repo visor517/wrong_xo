@@ -14,23 +14,23 @@ class Game:
         self.ai_moves = {(i, j) for j in range(10) for i in range(10)}
 
     # вывод доски
-    def printBoard(self):
+    def print_board(self):
         pprint(self.board)
 
     # сделать ход
-    def makeMove(self, move, char):
+    def make_move(self, move, char):
         x, y = move
         self.board[x][y] = char
         self.available_moves.remove(move)
         self.ai_moves.discard(move)
 
     # генератор хода ai
-    def generateMove(self):
+    def generate_move(self):
         
         # выбор безопасного хода
         while len(self.ai_moves) > 0:
             move = choice(list(self.ai_moves))
-            if self.checkLose(move, self.ai_char):
+            if self.check_lose(move, self.ai_char):
                 return move
             else:
                 self.ai_moves.remove(move)
@@ -38,7 +38,7 @@ class Game:
         return choice(list(self.available_moves))
 
     # проверка на поражение после хода
-    def checkLose(self, move, char):
+    def check_lose(self, move, char):
         x, y = move
         temp, self.board[x][y] = self.board[x][y], char # для проверки без хода
         line = ''.join(self.board[x])
